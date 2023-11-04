@@ -1,11 +1,12 @@
+import Introduction from "./components/Intro";
+import './App.css'
+
 function App() {
   return (
     <div>
-      <h1>Ruben Claes</h1>
-      <h2>Developer, devout Christian & family man.</h2>
+      <Introduction/>
     </div>
   );
-
 }
 
 export default App;
